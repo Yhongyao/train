@@ -1,0 +1,106 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+/* 头部 */
+.head {
+	width: 100%;
+	text-align: center;
+	height: 85px;
+	background-color: antiquewhite;
+	line-height: 80px;
+}
+
+/* 左侧 */
+.left {
+	display: inline-block;
+	width: 25%;
+	background-color: beige;
+	vertical-align: top;
+	height: 3600px;
+}
+
+.left ul {
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+}
+
+.left ul li {
+	border-bottom: 1px solid #666666;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	text-align: center;
+}
+
+.left ul li:last-child {
+	border-bottom: none;
+}
+
+.left ul li a {
+	font-size: 25px;
+	font-weight: 800;
+	color: #666666;
+	text-decoration: none;
+}
+
+.left ul li a:hover {
+	color: #CCE8EB;
+}
+
+/* 右侧 */
+.right {
+	display: inline-block;
+	width: 74%;
+}
+
+.myimg {
+	width: 300px;
+}
+
+.right p {
+	text-indent: 2em;
+}
+
+.right p::first-letter {
+	font-size: 32px;
+}
+
+/* 底部 */
+.bottom {
+	background-color: antiquewhite;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+}
+
+.bottom p {
+	padding: 10px;
+}
+
+table {
+	border: 1;
+	width: 80%;
+	text-align: center;
+}
+
+th {
+	background-color: #CAD9EA;
+}
+
+table td,
+th {
+	border: 1px solid;
+}
+
+.price::before {
+	content: '￥';
+}
