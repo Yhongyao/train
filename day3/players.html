@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- <link rel="stylesheet" href="./nba.css" /> -->
+		<style type="text/css">
+			* {
+				margin: 0 auto;
+				padding: 0 auto;
+			}
+
+			body {
+				width: 80%;
+				margin: auto;
+			}
+
+			/* 头部 */
+			.head {
+				width: 100%;
+				text-align: center;
+				height: 85px;
+				background-color: antiquewhite;
+				line-height: 80px;
+			}
+
+			/* 左侧 */
+			.left {
+				display: inline-block;
+				width: 25%;
+				background-color: beige;
+				vertical-align: top;
+				height: 2800px;
+			}
+
+			.left ul {
+				list-style-type: none;
+				display: inline-block;
+				width: 100%;
+				padding: 0;
+			}
+
+			.left ul li {
+				border-bottom: 1px solid #666666;
+				height: 70px;
+				line-height: 70px;
+				display: block;
+				text-align: center;
+			}
+
+			.left ul li:last-child {
+				border-bottom: none;
+			}
+
+			.left ul li a {
+				font-size: 25px;
+				font-weight: 800;
+				color: #666666;
+				text-decoration: none;
+			}
+
+			.left ul li a:hover {
+				color: #CCE8EB;
+			}
+
+			/* 右侧 */
+			.right {
+				display: inline-block;
+				width: 74%;
+			}
+
+			.myimg {
+				width: 500px;
+			}
+
+			/* 底部 */
+			.bottom {
+				background-color: antiquewhite;
+				width: 100%;
+				text-align: center;
+				height: 40px;
+			}
+
+			.bottom p {
+				padding: 10px;
+			}
+
+			table {
+				border: 1;
+				width: 80%;
+				text-align: center;
+			}
+
+			th {
+				background-color: #CAD9EA;
+			}
+
+			table td,
+			th {
+				border: 1px solid;
+			}
+
+			.price::before {
+				content: '$';
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<h1><img src="img/nba.png" width="30" align="center" /> 球 员 档 案</h1>
+		</div>
+		<div class="left">
+			<ul>
+				<li><a href="#james" style="">勒布朗·詹姆斯</a></li>
+				<li><a href="#doncic">卢卡·东契奇</a></li>
+				<li><a href="#curry">斯蒂芬·库里</a></li>
+				<li><a href="#harden">詹姆斯·哈登</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<img src="img/allstar.png" width="100%" />
+			<br />
+			<br />
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<th>球员</th>
+					<th>薪水</th>
+				</tr>
+				<tr>
+					<td>勒布朗·詹姆斯</td>
+					<td><span class="price">1.56亿</span> </td>
+				</tr>
+				<tr>
+					<td>卢卡·东契奇</td>
+					<td><span class="price">768万</span></td>
+				</tr>
+				<tr>
+					<td>斯蒂芬·库里</td>
+					<td><span class="price">2.01亿</span></td>
+				</tr>
+				<tr>
+					<td>詹姆斯·哈登</td>
+					<td><span class="price">4.18亿</span></td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="james">勒布朗·詹姆斯</h2>
+			<br />
+			<img src="img/lebron.png" class="myimg" />
+			<p>
+				勒布朗·詹姆斯（LeBron James），1984年12月30日出生于美国俄亥俄州阿克伦（Akron, Ohio），美国职业篮球运动员，司职小前锋，绰号“小皇帝”，效力于NBA洛杉矶湖人队。
+				詹姆斯在2003年NBA选秀中于首轮第1顺位被克利夫兰骑士队选中，在2009年与2010年蝉联NBA常规赛最有价值球员（MVP）。
+				2010年，詹姆斯转会至迈阿密热火队。2012年，詹姆斯得到NBA个人生涯的第3座常规赛MVP，第1个总冠军和总决赛MVP，并代表美国男篮获得了伦敦奥运会金牌，
+				追平了迈克尔·乔丹在1992年所创的纪录。2013年，詹姆斯获得第4个常规赛MVP、第2个NBA总冠军和第2个总决赛MVP，实现两连冠。
+				2014年，詹姆斯回归骑士。2016年，詹姆斯带领骑士逆转战胜卫冕冠军勇士获得队史首个总冠军和个人第3个总决赛MVP。
+				2018年7月10日，詹姆斯正式与湖人签下4年1.53亿美元的合同
+			</p>
+			<br />
+			<h2 id="doncic">卢卡·东契奇</h2>
+			<br />
+			<img src="img/doncic.png" class="myimg" />
+			<p>
+				卢卡·东契奇（Luka Dončić），1999年2月28日出生于斯洛文尼亚卢布尔雅那（Ljubljana, Slovenia），斯洛文尼亚职业篮球运动员，司职前锋/后卫，效力于NBA达拉斯独行侠队。
+				卢卡·东契奇的职业生涯开始于西班牙甲级联赛皇家马德里篮球俱乐部。2018年NBA选秀，卢卡·东契奇在首轮第3顺位被亚特兰大老鹰队选中，随后被交易至达拉斯独行侠队，
+				2018-19赛季，当选最佳新秀并入选最佳新秀阵容第一阵容；2019-20赛季，入选全明星西部首发阵容。
+			</p>
+			<br />
+			<h2 id="curry">斯蒂芬·库里</h2>
+			<br />
+			<img src="img/curry.png" class="myimg" />
+			<p>
+				斯蒂芬·库里（Stephen Curry），1988年3月14日出生于美国俄亥俄州阿克伦（Akron,Ohio），美国职业篮球运动员，司职控球后卫，效力于NBA金州勇士队.
+				斯蒂芬·库里于2009年通过选秀进入NBA后一直效力于金州勇士队，新秀赛季入选最佳新秀第一阵容；2014-15、2016-17、2017-18赛季三次夺得NBA总冠军；两次荣膺常规赛MVP，
+				6次入选最佳阵容（3次一阵、2次二阵、1次三阵），6次入选全明星赛西部首发阵容.
+				斯蒂芬·库里于2010年随美国队获土耳其世锦赛冠军，2014年随美国队获西班牙篮球世界杯冠军。2019福布斯100名人榜排名第23位
+			</p>
+			<br />
+			<h2 id="harden">詹姆斯·哈登</h2>
+			<br />
+			<img src="img/harden.png" class="myimg" />
+			<p>
+				詹姆斯·哈登（James Harden），1989年8月26日出生于美国加利福尼亚州洛杉矶（Los Angeles, California），美国职业篮球运动员，司职后卫，效力于NBA休斯顿火箭队。
+				詹姆斯·哈登于2009年通过选秀进入NBA，先后效力于雷霆队和火箭队，新秀赛季入选最佳新秀第二阵容，2011-12赛季当选最佳第六人，
+				2012-13赛季入选最佳阵容第三阵容，5次入选最佳阵容第一阵容，8次入选全明星阵容，2017-18赛季荣膺常规赛MVP，2次荣膺NBA得分王，1次荣膺NBA助攻王。
+				詹姆斯·哈登于2012年随美国男篮获伦敦奥运会金牌，2014年随美国队获西班牙篮球世界杯冠军。2019福布斯100名人榜，詹姆斯·哈登排名第64位。
+			</p>
+		</div>
+		<div class="bottom">
+			<p class="bottom-p">版权所有&copy;杨弘耀</p>
+		</div>
+	</body>
+</html>
