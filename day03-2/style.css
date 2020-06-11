@@ -1,0 +1,138 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/* 头部 */
+.head {
+	width: 100%;
+	text-align: center;
+	height: 80px;
+	background-color: #FF4C4F;
+}
+
+.header {
+	width: 80%;
+	text-align: center;
+	padding-top: 11px;
+	height: 50px;
+}
+
+.header img {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.header h1 {
+	float: left;
+	padding-top: 15px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: white;
+	font-weight: 400;
+}
+
+.header p {
+	float: right;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.header p a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.header p a:hover {
+	color: #000000;
+}
+
+/* 中部 */
+.middle {
+	width: 80%;
+	height: 900px;
+	padding-top: 30px;
+}
+
+.middle p {
+	text-align: center;
+	font-size: 23px;
+	color: darkorange;
+	font-weight: bold
+}
+
+/* 底部 */
+.inbottom {
+	background-color: #810014;
+	width: 100%;
+	text-align: center;
+	height: 200px;
+}
+
+.inbottomleft {
+	float: left;
+	width: 40%;
+	height: 150px;
+	padding-top: 25px;
+}
+
+.inbottomleft p {
+	padding-top: 30px;
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+
+.inbottomright {
+	float: right;
+	width: 30%;
+	height: 150px;
+	padding-top: 25px;
+}
+
+.inbottomright img {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.bottom {
+	background-color: #810014;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+}
+
+.bottom p {
+	padding: 15px;
+	color: white;
+}
+
+.mytable {
+	width: 80%;
+	text-align: center;
+	height: 30%;
+}
+
+.mytable img {
+	width: 220px;
+	height: 270px;
+
+}
+
+.mytable tr {
+	height: 300px;
+
+}
+
+.mytable td {
+	background-color: blanchedalmond;
+	border: 1px solid #666666;
+}
+
+.mytable td p {
+	color: #666666;
+	font-size: 15px;
+}
