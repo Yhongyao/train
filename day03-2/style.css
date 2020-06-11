@@ -114,13 +114,7 @@
 	width: 80%;
 	text-align: center;
 	height: 30%;
-}
-
-.mytable img {
-	width: 220px;
-	height: 270px;
-	max-width: 80%;
-	max-height: 80%;
+	max-height: 30%;
 }
 
 .mytable tr {
@@ -136,4 +130,11 @@
 .mytable td p {
 	color: #666666;
 	font-size: 15px;
+}
+
+.mytable td img {
+	width: 220px;
+	height: 270px;
+	max-width: 100%;
+	max-height: 80%;
 }
