@@ -64,6 +64,64 @@
 	font-weight: bold
 }
 
+.middle_movie {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.middle_movie_ground {
+	background-color: blanchedalmond;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;	
+}
+
+.middle_movie_ground p {
+	color: #666666;
+	font-size: 20px;
+}
+
+.middle_movie_ground img {
+	width: 250px;
+	height: 350px;
+	max-width: 100%;
+	max-height: 80%;
+}
+
+.middle_dog {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.middle_dog_ground {
+	background-color: blanchedalmond;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.middle_dog_ground p {
+	color: #666666;
+	font-size: 20px;
+}
+
+.middle_dog_ground img {
+	width: 250px;
+	height: 350px;
+	max-width: 100%;
+	max-height: 80%;
+}
+
 /* 底部 */
 .inbottom {
 	background-color: #810014;
@@ -87,7 +145,7 @@
 
 .inbottomleft p {
 	padding-top: 30px;
-	float: right;
+	float: left;
 	color: white;
 	font-size: 20px;
 }
@@ -102,7 +160,7 @@
 .inbottomright img {
 	width: 150px;
 	height: 150px;
-	float: left;
+	float: right;
 }
 
 .bottom {
@@ -113,36 +171,7 @@
 }
 
 .bottom p {
-	padding: 15px;
-	color: white;
-}
-
-.mytable {
 	width: 1200px;
-	text-align: center;
-	height: 30%;
-	max-height: 30%;
-	border-collapse:collapse;
-}
-
-.mytable tr {
-	height: 300px;
-	
-}
-
-.mytable td {
-	background-color: blanchedalmond;
-	border: 1px solid #666666;
-}
-
-.mytable td p {
-	color: #666666;
-	font-size: 15px;
-}
-
-.mytable td img {
-	width: 220px;
-	height: 270px;
-	max-width: 100%;
-	max-height: 80%;
+	padding-top: 15px;
+	color: white;
 }
