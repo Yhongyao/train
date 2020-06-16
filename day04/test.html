@@ -92,6 +92,11 @@
                     $("#btnOk").click();
                 }
             });
+
+            //清屏
+            $("#reset").click(function () {
+               $("#screen span").remove();
+            });
         });
         //随机速度
         function getSpeed(){
@@ -112,11 +117,12 @@
 
 <body>
     <div id="wrap">
-        <div class="screen">
+        <div id="screen" class="screen">
         </div>
         <div class="foot">
             <input type="text" name="inVal" id="inVal">
             <button id="btnOk">发送</button>
+            <button id="reset">清屏</button>
         </div>
     </div>
 </body>
